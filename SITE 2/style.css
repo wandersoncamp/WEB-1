@@ -1,0 +1,153 @@
+header img {
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+header {
+	background-color: white;
+	display: flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	  
+	margin: 0 auto;
+} 
+
+h1 {
+	text-align: center;
+	margin: 10% 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+*{margin: 0; padding: 0;}
+
+
+
+.w3-container{
+ width:25%;
+ color: white;
+margin-top: 5%;
+ float: right;
+}
+
+@media screen (max-width: 600px){
+
+	.w3-container{
+		float: center;
+	}
+}
+
+.box-all{
+	margin-top: 5%; 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items:center;
+}
+
+.box-img {
+	background-color: #2A343D;
+	width:300px;
+    height:300px;
+    border:solid 1px;
+    border-radius:10px;
+    border-style: solid;
+ 	border-color: #F5F5F5;
+	border-width: 4px;
+	margin: 1% 1% 1% 1%;	 
+}
+
+.box-img:hover {
+	border-color: grey;
+}
+
+.box-img img{
+	width: 50%;
+	height: 40%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.box-img button{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#a3a3a3),
+		color-stop(0.50, #3b3b3b),
+		color-stop(0.50, #242424),
+		to(#000000));
+	background: linear-gradient(
+		top,
+		#a3a3a3 0%,
+		#3b3b3b 50%,
+		#242424 50%,
+		#000000);
+	border-radius: 10px;
+	border: 1px solid #000000;
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.2);
+
+}
+
+.box-all p {
+	color:#F5F5F5;	
+	font-size: 150%; 
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top:30px;
+	position:relative;
+}
+
+body {	
+	background-color:#2A343D;
+	margin: 0px; 
+	font-family: courier,arial,helvetica;
+	font-size: 11px
+}
+
+.ast {
+	
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 1px;
+}
+
+.ast img {
+	width: 40%;
+	height: 40%;
+}
+
+
+
+.text{
+	z-index: 1;
+	color:purple;	
+	position: absolute;
+	text-align:center;	
+}
+
+
+footer {
+		position:relative;
+		font-weight: bold;
+ 		background-color:white;
+ 		bottom:0;
+ 		width:100%;
+ 		height:20%;
+ 		text-align:center;
+		} 
+
+footer p {
+	padding-top:50px;
+	padding-bottom: 10px;
+}
