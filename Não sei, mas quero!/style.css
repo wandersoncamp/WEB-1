@@ -35,13 +35,75 @@ li a:hover {
 }
 
 body {  
+
   margin: 0px; 
   font-family: Helvetica, Courier, Harial;
   font-size: 20px
+
+  .button {
+  -moz-border-radius: 58px;
+  -moz-box-shadow: #ff6666 0px 0px 26px;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-border-radius: 58px;
+  -webkit-box-shadow: #6E7849 0 0 10px;
+  -webkit-transition: all 0.5s ease;
+  background-color: #ffecd9;
+  background-image: -moz-linear-gradient(90deg, #ffecd9, #ffecd9);
+  background-image: -ms-linear-gradient(90deg, #ffecd9, #ffecd9);
+  background-image: -o-linear-gradient(90deg, #ffecd9, #ffecd9);
+  background-image: -webkit-linear-gradient(90deg, #ffecd9, #ffecd9);
+  background-image: linear-gradient(90deg, #ffecd9, #ffecd9);
+  border-radius: 58px;
+  border: 4px solid #ff6666;
+  box-shadow: #ff6666 0px 0px 26px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 4em;
+  margin: auto;
+  padding: 15px;
+  text-decoration: none;
+  text-shadow: #473333 5px 5px 15px;
+  transition: all 0.5s ease;
+}
+.button:hover {
+  padding: 15px;
+}
+
 }
 
 
-
+.button {
+  -moz-border-radius: 58px;
+  -moz-box-shadow: #ff6666 0px 0px 26px;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-border-radius: 58px;
+  -webkit-box-shadow: #6E7849 0 0 10px;
+  -webkit-transition: all 0.5s ease;
+  background-color: #ffecd9;
+  background-image: -moz-linear-gradient(90deg, #ffecd9, #ffecd9);
+  background-image: -ms-linear-gradient(90deg, #ffecd9, #ffecd9);
+  background-image: -o-linear-gradient(90deg, #ffecd9, #ffecd9);
+  background-image: -webkit-linear-gradient(90deg, #ffecd9, #ffecd9);
+  background-image: linear-gradient(90deg, #ffecd9, #ffecd9);
+  border-radius: 58px;
+  border: 4px solid #ff6666;
+  box-shadow: #ff6666 0px 0px 26px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 4em;
+  margin: auto;
+  padding: 15px;
+  text-decoration: none;
+  text-shadow: #473333 5px 5px 15px;
+  transition: all 0.5s ease;
+}
+.button:hover {
+  padding: 15px;
+}
 
 
 
